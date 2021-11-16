@@ -1,0 +1,14 @@
+import json
+import yaml
+
+yaml_file = open("myfile.yaml","r")
+
+pythondata = yaml.safe_load(yaml_file)
+
+print(pythondata['expires_in'])
+
+print("The access token from YAML is: %s" % pythondata['access_token'])
+
+print("\n\n")
+
+print(json.dumps(pythondata))
