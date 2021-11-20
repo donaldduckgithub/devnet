@@ -1,0 +1,14 @@
+import requests
+import json
+
+url = "http://localhost:8080/v1/books"
+
+book = {
+    "name": "The Art of Computer Programming",
+    "authors": ["Donald Knuth"],
+    "date": 1968,
+    "isbn": "0-201-03801-3"
+}
+
+response = requests.post(url, json=book)
+print(response.status_code)
