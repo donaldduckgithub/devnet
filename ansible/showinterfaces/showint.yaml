@@ -1,0 +1,16 @@
+#ansible-playbook -i hosts showint.yaml -u cisco -k
+#https://fedoramagazine.org/automating-network-devices-with-ansible/
+---
+- name: Basic Playbook
+  hosts: site_a
+  connection: local
+
+  tasks:
+   - name: Get Interface Brief
+     ios_command:
+       commands:
+         - show ip interface brief | e una
+     register: interfaces
+   - name: Print results
+     debug:
+       msg: "{{ interfaces.stdout[0] }}"
