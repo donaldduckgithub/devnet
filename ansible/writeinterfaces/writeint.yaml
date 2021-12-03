@@ -1,0 +1,31 @@
+#ansible-playbook -i hosts writeint.yaml
+#https://fedoramagazine.org/automating-network-devices-with-ansible/
+---
+- name: Get System Infomation
+  hosts: site_a
+  connection: network_cli
+  gather_facts: no
+  
+  vars:
+    backup_dir: /etc/ansible/backup
+  
+  tasks:
+  - name: Backup configs
+    ios_config:
+      backup: yes
+      backup_options:
+        filename: "{{ inventory_hostname }}_running_cfg.txt"
+        dir_path: "{{ backup_dir }}"
+    
+  - name: get system interfaces
+    ios_config:
+      lines:
+        - description Raspberry Pi
+      parents: "{{ item }}"
+    with_items:
+      - interface Ethernet0/1
+      - interface Ethernet0/2
+      
+  - name: Save switch configuration
+    ios_config:
+      save_when: modified
