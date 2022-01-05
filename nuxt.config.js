@@ -1,3 +1,25 @@
+const createSitemapRoutes = async () => {
+  const routes = []
+  const { $content } = require('@nuxt/content')
+  const posts = await $content('posts').fetch()
+
+  for (const post of posts) {
+    routes.push(`/${post.slug}`)
+  }
+
+  const totalPosts = posts.length
+  const lastPage = Math.ceil(totalPosts / process.env.PER_PAGE)
+
+  for (let i = lastPage; i > 1; i--) {
+    routes.push(`/pages/${i}`)
+  }
+
+  return routes
+}
+
+const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
+
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   ssr: false,
