@@ -32,9 +32,27 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
+    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/tailwindcss',
+    'nuxt-password-protect'
   ],
+
+  passwordProtect: {
+    enabled: true,
+    formPath: '/password',
+    password: 'nilswolf1',
+    tokenSeed: 101010,
+    queryString: '_pw',
+    cookieName: '_password',
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/public-page']
+  },
+  router: {
+    middleware: ['password-protect']
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
