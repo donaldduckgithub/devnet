@@ -21,12 +21,20 @@ const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
 
 
 export default {
+  target: 'static',
+
+  publicRuntimeConfig: {
+    baseUrl: siteUrl,
+    perPage: process.env.PER_PAGE || '5',
+  },
+
+  
   // Target: https://go.nuxtjs.dev/config-target
   ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'turmburg',
+    title: 'myblog2',
     htmlAttrs: {
       lang: 'en'
     },
@@ -38,6 +46,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      
     ]
   },
 
@@ -54,32 +63,42 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    'nuxt-password-protect'
   ],
-
-  passwordProtect: {
-    enabled: true,
-    formPath: '/password',
-    password: 'nilswolf1',
-    tokenSeed: 101010,
-    queryString: '_pw',
-    cookieName: '_password',
-    cookie: {
-      prefix: '',
-      expires: 5
-    },
-    ignoredPaths: ['/public-page']
-  },
-  router: {
-    middleware: ['password-protect']
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
+  modules: ['@nuxt/content',
+  
   ],
+
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css', //cool code window usw.
+      },
+    },
+  },
+
+  sitemap: {
+    hostname: siteUrl,
+    gzip: true,
+    routes: createSitemapRoutes,
+  },
+
+  generate: {
+    async routes() {
+      return await createSitemapRoutes()
+    },
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
+
+    
   }
+
+  
+  
 }
