@@ -72,6 +72,17 @@ export default {
     },
   },
 
+  sitemap: {
+    hostname: siteUrl,
+    gzip: true,
+    routes: createSitemapRoutes,
+  },
+
+  generate: {
+    async routes() {
+      return await createSitemapRoutes()
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/content'
