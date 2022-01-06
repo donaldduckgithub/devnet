@@ -30,7 +30,7 @@ export default {
 ```
 
 
-
+![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
 
 
 
