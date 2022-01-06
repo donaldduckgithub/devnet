@@ -23,6 +23,7 @@ const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   ssr: false,
+  target: 'static',
 
   publicRuntimeConfig: {
     baseUrl: siteUrl,
@@ -62,6 +63,23 @@ export default {
     '@nuxtjs/tailwindcss',
     'nuxt-password-protect'
   ],
+
+  passwordProtect: {
+    enabled: true,
+    formPath: '/password',
+    password: 'nilswolf1',
+    tokenSeed: 101010,
+    queryString: '_pw',
+    cookieName: '_password',
+    cookie: {
+      prefix: '',
+      expires: 5
+    },
+    ignoredPaths: ['/public-page']
+  },
+  router: {
+    middleware: ['password-protect']
+  },
 
   content: {
     markdown: {
