@@ -5,8 +5,10 @@ img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
 ---
 
+![image alt text](~/assets/your_image.png)
+![image alt text](https://turmburg.netlify.app/assets/your_image.png)
 
-![Illustration showing difference between SPA vs Traditional Web](~/posts/img/spa-vs-traditional-web.png)
+![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
 
 
 Diktat zum Schreiben und seine Vorteile

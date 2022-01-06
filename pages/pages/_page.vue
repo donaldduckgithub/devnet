@@ -1,5 +1,6 @@
 <template>
   <div class="bg-myblue min-h-screen">
+    <AppHeader />
     <div class="container mx-auto py-5">
       <div class="flex flex-wrap text-center text-white">
         <div class="w-full md:w-2/3 p-5 border-r border-white">
@@ -24,24 +25,15 @@
     </div>
 
         </div>
- <div class="w-full md:w-1/3 p-5 md:text-left">
-          <ul>
-            <p>Categories:</p>
-            <li>
-              <a href="#responsive-header" class="ml-6 mt-1 hover:text-black mr-7">
-              OSPF
-              </a>
-            </li>
-            <li>
-              <a href="#responsive-header" class="ml-6 mt-1 hover:text-black mr-7">
-                RIP
-              </a>
-            </li>
-          </ul>
+   <div class="w-full md:w-1/3 p-5 md:text-left">
+    
+              <AppSearchInput />
+    
         </div>
-            </div>
-                </div>
-                    </div>
+    
+                    </div> 
+</div>
+ </div>
 </template>
 
 <script>
