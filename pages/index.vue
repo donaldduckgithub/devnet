@@ -26,3 +26,16 @@
 </div>
 </template>
 
+<script>
+export default {
+  async asyncData({ $content }) {
+    const posts = await $content('posts')
+      .only(['title', 'description', 'createdAt', 'slug'])
+      .sortBy('createdAt', 'desc')
+      .limit(process.env.PER_PAGE)
+      .fetch()
+
+    return { posts }
+  },
+}
+</script>
