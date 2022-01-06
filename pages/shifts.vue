@@ -1,5 +1,6 @@
 <template>
   <div class="bg-myblue min-h-screen">
+    <AppHeader />
     <div class="container mx-auto py-5">
    
         <img src="https://i.imgur.com/gw4tzHn.png" class="py-12" width="50%" height="50%" />

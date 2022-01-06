@@ -23,6 +23,7 @@
 
 <template>
 <div class="bg-myblue min-h-screen">
+   <AppHeader />
  <div class="container mx-auto pt-5">
   <article>
     <div class="mx-auto text-center pb-5">
