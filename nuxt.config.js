@@ -22,7 +22,7 @@ const siteUrl = process.env.BASE_URL || 'http://localhost:3000'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  ssr: false,
+  //ssr: false,
   target: 'static',
 
   publicRuntimeConfig: {
