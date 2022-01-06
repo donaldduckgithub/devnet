@@ -11,7 +11,11 @@
         <div class="w-full md:w-1/3 p-5 md:text-left">
     
               <AppSearchInput />
-    
+              <img src="/turmimg.png"/>
+              <img src="/turmimg.png"/>
+              <img src="~/assets/turmimg.png" />
+              <img src="~/assets/img/turmimg.png" />
+              <img src="/assets/turmimg.png" />
         </div>
          <div class="w-full md:w-2/3 p-5 border-r border-white">
       <div class="flex justify-between text-center text-white">
