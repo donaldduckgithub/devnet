@@ -63,6 +63,13 @@ export default {
     'nuxt-password-protect'
   ],
 
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css', //cool code window usw.
+      },
+    },
+  },
 
 
   // Modules: https://go.nuxtjs.dev/config-modules
