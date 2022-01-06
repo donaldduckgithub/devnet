@@ -23,12 +23,12 @@
 <div class="bg-myblue min-w-screen">
  <div class="container mx-auto py-1 border-b border-grey">
 <nav class="flex justify-start p-3">  <!--background navbar-->
-      <a href="https://github.com/donaldduckgithub/devnet" class="font-semibold text-xl text-white">Github</a>      
+      <a href="https://github.com/donaldduckgithub/devnet" class="font-semibold text-xl text-white">Conft</a>      
       <a href="https://www.youtube.com/playlist?list=PLgY1BWWbCdZxQSKYQAjkg6diVUA95nn1R" class="ml-6 mt-1 mr-7 hover:text-white">
         Playlist
       </a>
-      <a href="/shifts" aria-label="About page" class="mt-1 mr-7 hover:text-white nav-link nuxt-link-exact-active nuxt-link-active" aria-current="page">
-              shifts
+      <a href="/about" aria-label="About page" class="mt-1 mr-7 hover:text-white nav-link nuxt-link-exact-active nuxt-link-active" aria-current="page">
+              About
             </a>
 
   </nav>
