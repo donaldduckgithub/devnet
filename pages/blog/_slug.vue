@@ -14,7 +14,8 @@
     margin-bottom: 5px;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    color: #9ca3af;
+    color: #D6D3D1;
+    line-height: 1.8;
   }
 </style>
 

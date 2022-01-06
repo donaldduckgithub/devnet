@@ -3,7 +3,6 @@ title: My first Blog Post
 description: Learning how to go use @nuxt/content to create a blog
 img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
-tag: ypsilon
 ---
 
 Diktat zum Schreiben und seine Vorteile
@@ -14,11 +13,7 @@ Schreiben hat ei
 
 
 
-
-
-
-
-      ne lan
+	Tabulator für umrandung
 
 
 
