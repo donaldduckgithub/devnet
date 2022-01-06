@@ -67,7 +67,7 @@ export default {
   passwordProtect: {
     enabled: true,
     formPath: '/password',
-    password: 'testpw',
+    password: 'nilswolf1',
     tokenSeed: 101010,
     queryString: '_pw',
     cookieName: '_password',
