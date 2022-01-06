@@ -5,6 +5,11 @@ img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
 ---
 
+turmimg.png
+![image alt text](/turmimg.png)
+![image alt text](/blog/turmimg.png)
+![image alt text](~/turmimg.png)
+![image alt text](turmimg.png)
 ![image alt text](~/assets/your_image.png)
 ![image alt text](https://turmburg.netlify.app/assets/your_image.png)
 
