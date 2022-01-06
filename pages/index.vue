@@ -1,6 +1,6 @@
 <template>
- <AppHeader />
   <div class="bg-myblue min-h-screen">
+ <AppHeader />
     <div class="container mx-auto py-5">
       <div class="flex flex-wrap text-center text-white">
         <div class="w-full md:w-2/3 p-5 border-r border-grey">
