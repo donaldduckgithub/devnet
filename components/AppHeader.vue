@@ -19,7 +19,7 @@
 </style>
 
 <template>
-    <AppHeader />
+   
 <div class="bg-myblue min-w-screen">
  <div class="container mx-auto py-1 border-b border-grey">
 <nav class="flex justify-start p-3">  <!--background navbar-->

@@ -1,4 +1,5 @@
 <template>
+ <AppHeader />
   <div class="bg-myblue min-h-screen">
     <div class="container mx-auto py-5">
       <div class="flex flex-wrap text-center text-white">
