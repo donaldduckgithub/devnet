@@ -5,6 +5,10 @@ img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
 ---
 
+
+![Illustration showing difference between SPA vs Traditional Web](~/posts/img/spa-vs-traditional-web.png)
+
+
 Diktat zum Schreiben und seine Vorteile
 
 Schreiben hat ei
@@ -29,8 +33,6 @@ export default {
 </script>
 ```
 
-
-![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
 
 
 
