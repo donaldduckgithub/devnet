@@ -6,9 +6,10 @@ alt: my first blog post
 ---
 
 turmimg.png
-![image alt text](/turmimg.png)
+![image alt text](https://turmburg.netlify.app/turmimg.png)
+![image alt text](https://turmburg.netlify.app/blog/turmimg.png)
 ![image alt text](/blog/turmimg.png)
-![image alt text](~/turmimg.png)
+![image alt text](https://turmburg.netlify.app/~/turmimg.png)
 ![image alt text](turmimg.png)
 ![image alt text](~/assets/your_image.png)
 ![image alt text](https://turmburg.netlify.app/assets/your_image.png)
