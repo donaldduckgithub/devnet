@@ -5,13 +5,9 @@ img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
 ---
 
-turmimg.png
-![image alt text](https://turmburg.netlify.app/turmimg.png)
-![image alt text](https://turmburg.netlify.app/blog/turmimg.png)
-![image alt text](/blog/turmimg.png)
-![image alt text](https://turmburg.netlify.app/~/turmimg.png)
-![image alt text](turmimg.png)
-![image alt text](~/assets/your_image.png)
+![image alt text](~/assets/turmimg.png)
+![image alt text](~/assets/img/turmimg.png)
+
 ![image alt text](https://turmburg.netlify.app/assets/your_image.png)
 
 ![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
