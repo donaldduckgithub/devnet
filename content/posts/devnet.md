@@ -4,11 +4,8 @@ description: Learning how to go use @nuxt/content to create a blog
 img: https://i.imgur.com/Ff5MaTV.png
 alt: my first blog post
 ---
+<markdown-image src="turmimg.png" alt="Alt text"></markdown-image>
 
-![image alt text](~/assets/turmimg.png)
-![image alt text](~/assets/img/turmimg.png)
-
-![image alt text](https://turmburg.netlify.app/assets/your_image.png)
 
 ![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
 
