@@ -16,6 +16,7 @@
     font-size: 17px;
     color: #D6D3D1;
     line-height: 1.8;
+    
   }
 </style>
 
@@ -26,8 +27,7 @@
    <AppHeader />
  <div class="container mx-auto pt-5">
   <article>
-         <img src="~/assets/turmimg.png" />
-              <img src="~/assets/img/turmimg.png" />
+ 
     <div class="mx-auto text-center pb-5">
     <h1 class="text-5xl  mb-4 ">{{ post.title }}</h1>
    <div class="ml-6">

@@ -1,18 +1,16 @@
 ---
-title: My first Blog Post
-description: Learning how to go use @nuxt/content to create a blog
-img: https://i.imgur.com/Ff5MaTV.png
-alt: my first blog post
+title: My first blog post
+description: this is my first blog post description
 ---
-<markdown-image src="turmimg.png" alt="Alt text"></markdown-image>
+<markdown-image src="VPN side-to-side (client-to-side) Tunnel with ASA/turmimg.png" alt="Alt text"></markdown-image>
 
 
-![Illustration showing difference between SPA vs Traditional Web](https://turmburg.netlify.app/posts/img/spa-vs-traditional-web.png)
 
 
-Diktat zum Schreiben und seine Vorteile
 
-Schreiben hat ei
+# Diktat zum Schreiben und seine Vorteile
+
+
 
 
 
