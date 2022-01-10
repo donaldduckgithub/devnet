@@ -18,6 +18,11 @@
     line-height: 1.8;
     
   }
+
+      .nuxt-content br { 
+    line-height: 5.0;
+    
+  }
 </style>
 
 
