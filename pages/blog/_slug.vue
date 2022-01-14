@@ -7,7 +7,7 @@
   .nuxt-content h3 {
     font-weight: bold;
     font-size: 25px;
-    color: #e2e8f0;
+    color: #A1A1AA;
   }
 
     .nuxt-content p { 
@@ -23,7 +23,7 @@
     line-height: 5.0;
     
   }
-
+  
 </style>
 
 
