@@ -3,7 +3,7 @@ title: basic config
 description: the basic config of a cisco router
 ---
 
-# Requirements:
+# Basics and OSPF and BGP:
 ```
 en 
 conf t 
@@ -36,3 +36,35 @@ end
 
 wr 
 ```
+
+# VLAN
+
+<markdown-image src="basicconfig/1.PNG" alt="Alt text"></markdown-image>
+
+```
+Switch:
+vlan 24
+name USERS
+
+int eth0/1
+switchport access vlan 24
+
+int eth0/0
+switchport trunk encapsulation dot1q
+switchport mode trunk 
+spanning-tree portfast trunk
+switchport trunk allowed vlan all
+
+
+Router:
+int eth0/0
+no shut
+int eth0/0.24
+encapsulation dot1q 24
+ip add 10.10.10.1 255.255.255.0
+no shut
+
+
+
+```
+
