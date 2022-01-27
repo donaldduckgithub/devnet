@@ -13,7 +13,7 @@
     .nuxt-content p { 
     margin-bottom: 5px;
     font-size: 17px;
-    color: #9ca3af;
+    color: #b2bac7;
     line-height: 1.8;
     
   }
