@@ -30,8 +30,9 @@
 
 <template>
 <div class="bg-myblue min-h-screen">
-   <AppHeader />
+   <AppHeader2 />
  <div class="container mx-auto pt-5">
+           <div class="mx-auto md:w-4/5">
   <article>
  
     <div class="mx-auto text-center pb-5">
@@ -53,6 +54,7 @@
 
     <prev-next class="text-gray-50" :prev="prev" :next="next" />
   </article>
+     </div>
      </div>
 </div>
 </template>

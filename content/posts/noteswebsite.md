@@ -1,6 +1,7 @@
 ---
 title: Notes Website
 description: All relevant notes for developing your website
+tags: javascript
 ---
 
 # To Do
