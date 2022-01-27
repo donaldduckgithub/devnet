@@ -174,6 +174,7 @@ export default {
 </script>
 ```
 
+
 create index.vue file in pages
 ```vue
 <template>
