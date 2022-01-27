@@ -19,7 +19,7 @@
   }
 
       .nuxt-content br { 
-    line-height: 5.0;
+    line-height: 2.5;
     
   }
   

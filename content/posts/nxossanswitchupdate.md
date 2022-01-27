@@ -1,6 +1,7 @@
 ---
 title: Update NX-OS SAN Switch 
 description: Update your NX-OS SAN Switch
+tags: nexus
 ---
 
 # Installation:

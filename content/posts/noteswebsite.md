@@ -1,7 +1,7 @@
 ---
 title: Notes Website
 description: All relevant notes for developing your website
-tags: javascript
+tags: notes
 ---
 
 # To Do
@@ -220,6 +220,12 @@ export default {
 </script>
 ```
 
+create a tags folder for the tags in /content and create your tags e.g. javascript.md:
+```
+---
+name: javascript
+---
+```
 
 ```
 

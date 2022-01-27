@@ -1,6 +1,7 @@
 ---
 title: wlc Cisco embedded Catalyst Wireless Controller update
 description: Update your Cisco Catalyst Access Points and the WLC 
+tags: catalyst
 ---
 
 # Download the zip file: 

@@ -1,6 +1,7 @@
 ---
 title: Ansible
 description: Ansible
+tags: ansible
 ---
 
 # Installation:

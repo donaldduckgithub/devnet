@@ -1,9 +1,7 @@
 <template>
   <div class="bg-myblue min-h-screen">
      <AppHeader />
-    <h1>
-        {{tag.name}}
-    </h1>
+        <!--{{tag.name}}-->
     <div class="container mx-auto ">
       <div class="flex flex-wrap text-center text-white">
       <div class="w-full md:w-1/4 py-10 md:text-left">

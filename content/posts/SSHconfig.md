@@ -1,6 +1,7 @@
 ---
 title: SSH config
 description: Configure ssh on a network device
+tags: ssh
 ---
 
 # Requirements:

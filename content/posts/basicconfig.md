@@ -1,6 +1,7 @@
 ---
 title: basic config
 description: the basic config of a cisco router
+tags: config
 ---
 
 # Basics and OSPF and BGP:

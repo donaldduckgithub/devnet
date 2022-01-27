@@ -1,6 +1,7 @@
 ---
 title: STP
 description: Spanning Tree Protocol
+tags: stp
 ---
 
 # Theory:

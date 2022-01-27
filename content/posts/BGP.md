@@ -1,6 +1,7 @@
 ---
 title: BGP
 description: Border Gateway Protocol - Path Vector Protocol
+tags: bgp
 ---
 # Path-Vector Protocol
 Ein Router sendet an alle benachbarten Router die Pfade, die über ihn erreichbar sind. Hierbei wird am Anfang der Pfadvektor mit der Kennung des initiierenden (startenden) Routers initialisiert. Jeder Router, der diesen Pfad empfängt, untersucht den Vektor nach seiner eigenen Kennung. Ist diese nicht enthalten, wird der Pfad mit zugehörigem Vektor der lokalen Datenbank hinzugefügt. Hierdurch hat jeder Router in seiner Datenbank die Pfade des Netzes und jeweils auch die zugehörigen Vektoren. 

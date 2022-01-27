@@ -1,6 +1,7 @@
 ---
 title: OSPF
 description: Open Shortest Path First - Link State Protocol
+tags: ospf
 ---
 
 # Link State Protocol:

@@ -1,6 +1,7 @@
 ---
 title: asa Update Cisco ASA Firewalls
 description: Update the system and asdm images of asa firewalls
+tags: asa
 ---
 
 For documentary purposes I use the AASABN013 (asa5525) as example. For this example I am connected to the primary (active) ASA in the HA Cluster.

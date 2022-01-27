@@ -1,6 +1,7 @@
 ---
 title: bike
 description: every topic about my bycicle
+tags: bike
 ---
 
 # Change bycicle chain:
