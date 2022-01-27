@@ -2,9 +2,9 @@
   h1 {
     font-weight: bold;
     font-size: 28px;
-    color: #e2e8f0;
+    color: #ffffff;
   }
-  .nuxt-content h3 {
+  .nuxt-content h2 {
     font-weight: bold;
     font-size: 25px;
     color: #A1A1AA;
@@ -12,9 +12,8 @@
 
     .nuxt-content p { 
     margin-bottom: 5px;
-    font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    color: #D6D3D1;
+    color: #9ca3af;
     line-height: 1.8;
     
   }
@@ -25,6 +24,7 @@
   }
   
 </style>
+<!-- font-family: 'Roboto', sans-serif; -->
 
 
 

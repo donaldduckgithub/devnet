@@ -7,6 +7,7 @@
     <div class="container mx-auto ">
       <div class="flex flex-wrap text-center text-white">
       <div class="w-full md:w-1/4 py-10 md:text-left">
+      <AppSearchInput />
       <div class="dark:bg-gray-800 p-4 mb-6 pb-2 table-of-contents overflow-auto">
           <p class="font-bold py-1 text-gray-200 uppercase tracking-wider font-medium text-ss"> Tags: </p>
           <ul  style="list-style-type:none;">

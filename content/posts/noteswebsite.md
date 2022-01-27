@@ -24,7 +24,7 @@ tags: javascript
 
 <p> https://nuxtjs.org/docs/get-started/installation
 
-### in windows terminal (execute cmd as admin):
+## in windows terminal (execute cmd as admin):
 
 ```python
  npm install -g yarn #only first time for yarn 
@@ -32,7 +32,7 @@ tags: javascript
 
 
 
-### create your static website and choose following options:
+## create your static website and choose following options:
 ```python
     yarn create nuxt-app projectname
     javascript
@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-### Create a git repository and push your nuxtjs directory to git
+## Create a git repository and push your nuxtjs directory to git
 ```python
 git add .
 git commit -m "first commit"
@@ -65,7 +65,7 @@ git push https://github.com/donaldduckgithub/turmburg.git  #password is the acce
 npm install @nuxt/content #the module for writing blogs
 ```
 
-### Prism-themes to have a cool code window for your blog
+## Prism-themes to have a cool code window for your blog
 ```python
 npm install prism-themes
 #copypaste following in the file nuxt.config.js:
@@ -78,14 +78,14 @@ npm install prism-themes
   },
 ```
 
-### Install Password-protect module
+## Install Password-protect module
 https://github.com/stephenkr/nuxt-password-protect
 ```python
 npm install nuxt-password-protect
 # fill in the needed info in nuxt.config.js (module and passwordprotect:)
 # https://localhost:3000?_pw=password
 ```
-### TailwindCSS Typography plugin
+## TailwindCSS Typography plugin
 ```python
 npm install @tailwindcss/typography
 plugins: [require('@tailwindcss/typography')] # in tailwind.config.js
