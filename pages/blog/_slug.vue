@@ -51,7 +51,7 @@
 
   </div>
 
-
+ <div class="container mx-auto py-1 border-b border-grey"></div>
     <prev-next class="text-gray-50" :prev="prev" :next="next" />
   </article>
      </div>
