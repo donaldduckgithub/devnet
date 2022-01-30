@@ -5,5 +5,5 @@ tags: eve-ng
 ---
 
 docker pc
-<iframe src="https://drive.google.com/file/d/1iOTpqShtu7ScYDjxpRqM16Vjv12aLA50/preview" width="1280" height="720" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1iOTpqShtu7ScYDjxpRqM16Vjv12aLA50/preview" width="640" height="480" allow="autoplay"></iframe>
 

@@ -24,5 +24,5 @@ https://192.168.99.110/admin/public/asdm.jnlp
  asdm image disk:0/ASDMFILE
  show asdm image
 ```
-<iframe src="https://drive.google.com/file/d/1MRoOh85cYvIqeZesxUXsbGbi5xpJzgFc/preview" width="1280" height="720" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1MRoOh85cYvIqeZesxUXsbGbi5xpJzgFc/preview" width="640" height="480" allow="autoplay"></iframe>
 
