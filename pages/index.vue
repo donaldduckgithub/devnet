@@ -3,10 +3,7 @@
  <AppHeader />
     <div class="container mx-auto py-5"> <!--container is the reference to the tailwind.config.js screens:, mx-auto places the object in the center -->
       <div class="flex flex-wrap text-center text-white">
-
-
-
-        <div class="w-full md:w-1/4 py-12 md:text-left">
+               <div class="w-full md:w-1/4 py-12 md:text-left">
                    <AppSearchInput />
         <div class="dark:bg-gray-800 p-4 mb-6 pb-2 table-of-contents overflow-auto">
           <p class="font-bold py-1 text-gray-200 uppercase tracking-wider font-medium text-ss"> Tags: </p>

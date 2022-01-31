@@ -33,6 +33,9 @@
       <a href="/shifts" aria-label="About page" class="mt-1 mr-7 hover:text-white nav-link nuxt-link-exact-active nuxt-link-active" aria-current="page">
               shifts
             </a>
+                  <a href="/tasks" aria-label="About page" class="mt-1 mr-7 hover:text-white nav-link nuxt-link-exact-active nuxt-link-active" aria-current="page">
+              tasks
+            </a>
 
   </nav>
         </div>
