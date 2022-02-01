@@ -30,7 +30,7 @@
 
 <template>
 <div class="bg-myblue min-h-screen">
-   <AppHeader2 />
+   <AppHeader />
  <div class="container mx-auto pt-5">
            <div class="mx-auto md:w-4/5">
   <article>
