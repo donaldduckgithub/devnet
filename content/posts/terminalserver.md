@@ -1,7 +1,7 @@
 ---
 title: configure Terminalserver
 description: Configure an old 2911 cisco Router to act as a Terminalserver to reach all console lines with one device
-tags: console
+tags: console, router
 ---
 
 Reverse Telnet/ssh gives you the ability to telnet to a device, and then console to another device from there
