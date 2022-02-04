@@ -15,6 +15,19 @@ ansible --version
 ```
 </br>
 
+# Theory:
+
+Inventory File = defines the hosts and groups of hosts upon which commands, modules, and tasks in a playbook operate ( DNS-resolvable hostname of your target machine ) 
+
+</br>
+
+Playbook File = tell Ansible what to execute. They are like a to-do list for Ansible that contains a list of tasks 
+
+``` python
+ansible-doc ios_facts #helpful commands for ansible
+```
+</br>
+
 # Backup Config of Cisco Router
 Create the yaml file with the command **nano confbackup.yaml**
 type in following:
