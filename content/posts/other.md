@@ -4,6 +4,13 @@ description:  other
 tags: other
 ---
 
+Filezilla login example for eve-ng
+```
+192.168.178.41	root	admin	22
+```
+
+</br>
+
 jumphost mit cygwin
 ```
 cd C:/Users/akettern/privatekey
