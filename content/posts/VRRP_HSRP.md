@@ -50,3 +50,37 @@ standby 10 preempt
 ```
 
 <markdown-image src="hsrp_vrrp/1.PNG" alt="Alt text"></markdown-image>
+
+
+# HSRP Interface INFOnline production environment
+
+swi-cor-3
+```
+interface Vlan1077
+  vrf member administration
+  no ip redirects
+  ip address 10.10.77.5/24
+  no ipv6 redirects
+  hsrp version 2
+  hsrp 1077
+    priority 200
+    ip 10.10.77.1
+  description int-mgmt
+  no shutdown
+
+```
+
+swi-cor-4
+```
+interface Vlan1077
+  description int-mgmt
+  no shutdown
+  vrf member administration
+  no ip redirects
+  ip address 10.10.77.6/24
+  no ipv6 redirects
+  hsrp version 2
+  hsrp 1077
+    priority 150
+    ip 10.10.77.1
+```

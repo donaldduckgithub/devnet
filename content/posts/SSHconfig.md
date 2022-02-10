@@ -1,7 +1,7 @@
 ---
-title: SSH config
+title: SSH config on a cisco router
 description: Configure ssh on a network device
-tags: ssh
+tags: ssh, router
 ---
 
 # Requirements:
