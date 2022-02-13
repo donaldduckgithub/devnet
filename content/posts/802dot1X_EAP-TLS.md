@@ -4,6 +4,11 @@ description: Configure EAP-TLS with the ISE, Active Directory and Catalyst Switc
 tags: 802.1X
 ---
 
+vids in donalduckuck1:
+
+https://drive.google.com/file/d/1xCgg1myxYws-gl94yBaG0ITbDeofNBgN/view?usp=sharing
+
+https://drive.google.com/file/d/1u6ndZ9ykq9QwgVMxeyyMcPQ7FWn5AmtX/view?usp=sharing
 
 <markdown-image src="802dot1X_EAP-TLS/1.PNG" alt="Alt text"></markdown-image>
 
