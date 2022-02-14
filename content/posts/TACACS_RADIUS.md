@@ -85,3 +85,7 @@ aaa authentication login default group tacacs+ local
 aaa session-id common
 test aaa group VISEBN user pw 
 ```
+
+
+It could be that you need to create an ACL for tacacs port
+<markdown-image src="tacacs/1.PNG" alt="Alt text"></markdown-image>

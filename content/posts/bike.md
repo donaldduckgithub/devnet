@@ -12,3 +12,8 @@ mein rennrad hat hinten 7 zahnraeder. das heisst eine 7-fach fahrradkette kaufen
 
 
 <markdown-image src="bike/1.PNG" alt="Alt text"></markdown-image>
+
+Komponenten meines neuen Bikes:
+
+https://www.8bar-bikes.com/de/shop/fahrraeder/rennraeder-de/mitte-steel-v2-road/
+<markdown-image src="bike/2.PNG" alt="Alt text"></markdown-image>

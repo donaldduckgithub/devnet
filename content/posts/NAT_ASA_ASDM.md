@@ -16,4 +16,10 @@ als n�chstes die eigentlichen nat RUles machen. einmal dynamic PAT f�r anyou
 
 <markdown-image src="nat_asa_asdm/5.PNG" alt="Alt text"></markdown-image>
 
+Exclude NAT rule:
+<markdown-image src="nat_asa_asdm/6.PNG" alt="Alt text"></markdown-image>
+
+
+NAT rules:
+<markdown-image src="nat_asa_asdm/7.PNG" alt="Alt text"></markdown-image>
 
