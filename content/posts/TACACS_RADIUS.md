@@ -89,3 +89,13 @@ test aaa group VISEBN user pw
 
 It could be that you need to create an ACL for tacacs port
 <markdown-image src="tacacs/1.PNG" alt="Alt text"></markdown-image>
+
+# ISE Config for TACACS
+create a shell profile
+<markdown-image src="tacacs/2.PNG" alt="Alt text"></markdown-image>
+
+edit the shell profile
+<markdown-image src="tacacs/3.PNG" alt="Alt text"></markdown-image>
+
+create a tacacs policy (like the vpn policy) under Work Centers -> Device Admin Policy Sets
+<markdown-image src="tacacs/4.PNG" alt="Alt text"></markdown-image>

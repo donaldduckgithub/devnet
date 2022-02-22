@@ -200,8 +200,6 @@ CA Zertifikat in ISE kopieren
 
 <markdown-image src="802dot1X_EAP-TLS/94.PNG" alt="Alt text"></markdown-image>
 
-<markdown-image src="802dot1X_EAP-TLS/95.PNG" alt="Alt text"></markdown-image>
-
 <markdown-image src="802dot1X_EAP-TLS/96.PNG" alt="Alt text"></markdown-image>
 
 <markdown-image src="802dot1X_EAP-TLS/97.PNG" alt="Alt text"></markdown-image>

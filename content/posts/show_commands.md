@@ -5,6 +5,11 @@ tags: other
 ---
 
 ``` python
+
+show interface fex-fabric
+________________________________________
+show fex 115 detail
+________________________________________
 show interface status 
 ________________________________________
 show vpc 
