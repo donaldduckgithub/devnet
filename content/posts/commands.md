@@ -4,9 +4,12 @@ description: Useful Commands
 tags: other
 ---
 ``` python
+
+tail -f messages | grep "Feb 23 10:56:59"  #display the log only with specific keyword
+________________________________________
 default interface fa0/1 # reset interfaces 
 ________________________________________
-nameif mgmt # give interface a value. oterh than description 
+nameif mgmt # give interface a value. other than description 
 ________________________________________
 ping vrf Mgmt-intf 10.10.14.84 #use virtual routing table and also specific interface to send a ping 
 ________________________________________

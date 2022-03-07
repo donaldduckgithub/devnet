@@ -6,6 +6,14 @@ tags: other
 
 ``` python
 
+show system redundancy ha status #check for supervisor redundancy
+________________________________________
+show system redundancy status #check for supervisor redundancy
+________________________________________
+show standby #check for supervisor redundancy
+________________________________________
+show module 
+________________________________________
 show interface fex-fabric
 ________________________________________
 show fex 115 detail
