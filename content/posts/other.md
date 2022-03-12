@@ -73,12 +73,18 @@ less messages | grep "dkurz"
 
 </br>
 
-copy output of commands in txt file and export it
+## copy output of commands in txt file and export it
+``` python
+show fex detail > scp://root@10.10.14.68/root vrf administration
+scp -i id_rsa root@10.10.14.68:/root/root_9569 showfexdetail # in cygwin
+```
 ```
 show tech-support details > bootflash:tech-support19012022
 copy bootflash:tech-support2 scp://root@10.10.14.68/root
 scp root@vnocbn001:/root/tech-support2 tech-support2.txt
 ```
+
+
 
 </br>
 

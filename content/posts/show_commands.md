@@ -6,6 +6,8 @@ tags: other
 
 ``` python
 
+show hardware # check serial number of chassis and so on
+________________________________________
 show system redundancy ha status #check for supervisor redundancy
 ________________________________________
 show system redundancy status #check for supervisor redundancy

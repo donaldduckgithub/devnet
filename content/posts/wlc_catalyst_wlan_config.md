@@ -1,5 +1,5 @@
 ---
-title: WLC Catalyst add a new WLan
+title: WLC  Catalyst add a new WLan with switch config
 description: How to configure a new WLAN on your embedded Catalyst WLC
 tags: catalyst
 ---
@@ -41,3 +41,53 @@ enable the Wlan (under Dashboards)
 
 Press Save 
 <markdown-image src="wlc_catalyst_wlan_config/11.PNG" alt="Alt text"></markdown-image>
+
+# Access Switch Config
+## VLan 1 - Enterprise WLan
+```
+interface Vlan1
+ description Data
+ ip address 10.10.4.1 255.255.255.0
+ ip helper-address 10.10.2.46
+ ip helper-address 10.10.2.33
+```
+</br>
+
+## VLan 5 - Guest WLan
+```
+interface Vlan5
+ description WLAN-Guest
+ ip address 10.10.1.1 255.255.255.0
+ ip helper-address 10.10.2.46
+ ip helper-address 10.10.2.33
+ ip access-group 100 in
+
+ip access-list extended 100
+ 10 permit ip host 10.10.1.1 any
+ 20 permit ip host 10.10.1.2 any
+ 30 deny   ip 10.10.1.0 0.0.0.255 10.10.3.0 0.0.0.255 log
+ 40 deny   ip 10.10.1.0 0.0.0.255 10.10.4.0 0.0.0.255 log
+ 50 permit ip any any
+```
+</br>
+
+## interface config with 802.1X
+```
+interface GigabitEthernet2/0/45
+ description neuer AP
+ switchport mode trunk
+ authentication event fail action next-method
+ authentication event server alive action reinitialize
+ authentication host-mode multi-host
+ authentication order dot1x mab
+ authentication priority dot1x mab
+ authentication port-control auto
+ authentication periodic
+ authentication timer reauthenticate server
+ authentication timer inactivity server
+ authentication violation restrict
+ mab
+ dot1x pae authenticator
+ spanning-tree portfast trunk
+!
+```
