@@ -1,10 +1,23 @@
 ---
-title: How to connect your eve-ng to the internet and configure base settings
-description: How to connect your eve-ng to the internet and configure base settings 
+title: Base settings + How to connect your eve-ng to the internet
+description: Base settings + How to connect your eve-ng to the internet
 tags : eve-ng
 ---
 # Eve-NG cookbook
 https://www.eve-ng.net/wp-content/uploads/2021/10/EVE-COOK-BOOK-4.14-2021.pdf Eve-pro Cookbook 
+
+# NXOS9k
+---------NXOS 9k login:-------------
+
+username: admin
+
+no password
+
+</br>
+
+Im Bootloader:
+boot nxos.9.2.3.bin
+dir 
 
 # import IOU/IOL Images
 
