@@ -6,6 +6,13 @@ tags : eve-ng
 # Eve-NG cookbook
 https://www.eve-ng.net/wp-content/uploads/2021/10/EVE-COOK-BOOK-4.14-2021.pdf Eve-pro Cookbook 
 
+# Ubuntu
+Login: 
+
+Username: User
+
+password: Test123
+
 # NXOS9k
 ---------NXOS 9k login:-------------
 
@@ -96,7 +103,8 @@ ________________________________________
 authoritative; 
 subnet 192.168.99.0 netmask 255.255.255.0 { 
 range 192.168.99.100 192.168.99.254; 
-interface pnet9; 
+interface pnet9;
+option domain-name-servers 8.8.8.8; 
 option broadcast-address 192.168.99.255; 
 option subnet-mask 255.255.255.0; 
 option routers 192.168.99.1;} 
