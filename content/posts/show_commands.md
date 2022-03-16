@@ -6,6 +6,8 @@ tags: other
 
 ``` python
 
+show fex detail > scp://root@10.10.14.68/root vrf administration
+________________________________________
 show hardware # check serial number of chassis and so on
 ________________________________________
 show system redundancy ha status #check for supervisor redundancy

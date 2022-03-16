@@ -12,6 +12,14 @@ passwort: eve
 
 </br>
 
+Copy a file from a FTP / TFTP server to your network device
+```
+copy ftp://cisco:cisco@10.10.14.26/n7000-s2-dk9.8.2.6.bin bootflash: vrf administration  #FTPServer
+
+copy tftp://10.10.14.26/asr1000-universalk9.17.03.03.SPA.bin flash: #Tftp64
+```
+</br>
+
 Filezilla login example for eve-ng
 ```
 192.168.178.41	root	admin	22
