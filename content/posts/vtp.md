@@ -32,7 +32,7 @@ vtp primary #only server in a network who creates/updates/deletes vlans when vtp
 
 # helpful commands
 ``` bash
-vtp mode transparent # does not synchronize vlans even in a vtp domain, good first command when start to configure a switch
+vtp mode transparent # does not update its vlan database. use this command on a new switch
 
 show vtp status
 

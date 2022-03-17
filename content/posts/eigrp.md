@@ -42,9 +42,9 @@ feasible successor = backup route
 ``` bash
 #R1:
 router eigrp 1
- network 192.0.2.0 0.0.0.3
- network 192.168.1.0 0.0.0.3
- network 192.168.2.0 0.0.0.127
+network 192.0.2.0 0.0.0.3
+network 192.168.1.0 0.0.0.3
+network 192.168.2.0 0.0.0.127
 auto-summary # advertises only summary routes. Be careful if two interfaces in same prefix range are in different direction
 eigrp stub # share only connected and summary routes
 
