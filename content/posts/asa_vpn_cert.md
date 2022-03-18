@@ -18,5 +18,9 @@ https://www.cisco.com/c/en/us/support/docs/security-vpn/public-key-infrastructur
 
 verify Certificate signing request (open with text editor to see if its a request) with public CA (Sectigo) 
 
+register your CSR (e.g. with Gerwan GmbH).
+
+they will send you a txt file with the certificate
+
 <markdown-image src="asa_vpn_cert/7.PNG" alt="Alt text"></markdown-image>
 <markdown-image src="asa_vpn_cert/8.PNG" alt="Alt text"></markdown-image>

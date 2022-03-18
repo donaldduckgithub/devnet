@@ -132,8 +132,10 @@ cloud interface �ber eve-ng an asa asdm
 
 proxy arp mapt die ip auf eine andere
 
-vdc = virtueller switch auf switch limit-resource was er darf
-
 address-family ipv4 sinnvoll wenn man ipv6 nutzt
 
 ibgp benoetigt loopback 
+
+vdc = virtueller switch, falls man mehrere kunden hat um ports zu separieren, isolierter nexus
+
+fabric module machen switching  #sind andere slots als ethernet module sind hinten in der back plane
