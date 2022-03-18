@@ -1,7 +1,7 @@
 ---
 title: Notes Website
 description: All relevant notes for developing your website
-tags: notes
+tags: other
 ---
 
 # To Do
@@ -20,8 +20,19 @@ tags: notes
 - about page https://cornerofprogress.com/about
 ------------------
 
-# Set up nuxtjs 
+## Clone your repo to your local disk 
 
+(first time with username authentication)
+```
+git clone https://donaldduckgithub@github.com/donaldduckgithub/turmburg.git
+```
+
+## download nodejs for using npm in cygwin
+```
+https://nodejs.org/en/download/
+```
+
+# Set up nuxtjs 
 <p> https://nuxtjs.org/docs/get-started/installation
 
 ## in windows terminal (execute cmd as admin):
@@ -125,6 +136,8 @@ if your repsoitory is not in the list, click configure the netlify app on git hu
 
 # Create a tag system
 
+https://dev.to/ktopouzi/creating-tags-for-your-nuxt-blog-with-nuxt-content-4cc4
+
 <p> create _tagw.vue file in /blog/tagw
 
 ```vue
@@ -225,8 +238,9 @@ create a tags folder for the tags in /content and create your tags e.g. javascri
 ---
 name: javascript
 ---
-```
 
 ```
 
-```
+## Links
+https://cornerofprogress.com/creating-a-blog-with-nuxtjs
+https://nuxtjs.org/tutorials/creating-blog-with-nuxt-content/#getting-started
