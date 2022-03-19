@@ -9,21 +9,33 @@ tags: other
 network scanner
 putty
 superputty
+mobaxterm
+CheckMK #monitoring
+rancid #config backup. used for automated tasks on network devices
+eve-ng
 cygwin (scp,nano)
-ftpserver3lite
-tftpd64
-usb console driver for console cables
+ftpserver3lite #http://www.pablosoftwaresolutions.com/html/quick__n_easy_ftp_server_lite.html
+tftpd64 #https://pjo2.github.io/tftpd64/
 rufus
 photoshop
+after effects
+media encoder
 winrar
-visual studio code
+visual studio code #https://code.visualstudio.com/download
 filezilla
 obs studio
 vmware workstation player -> ubuntu vm
 hfs http file server
 SoftPerfect Network Scanner (free version on chip)
 draw.io #search field to search for shapes, citrix network architecture template
-
+https://ftdichip.com/drivers/d3xx-drivers/ #Console Cable, in network Ordner unter drivers. in putty auf COM3 stellen 
+NTFS file share permissin #http://lallouslab.net/2013/08/26/resetting-ntfs-files-permission-in-windows-graphical-utility/
+wireshark #packet analyzer
+netsniff-ng #http://netsniff-ng.org/
+mausezahn #https://man7.org/linux/man-pages/man8/mausezahn.8.html high-level packet generator for HW/SW appliances with Cisco-CLI*
+nmap
+Kain and Abel
+John the ripper 
 ```
 
 
@@ -89,7 +101,6 @@ https://codepen.io/nirhere/pen/KVpQVq
 https://jsonlint.com/
 https://drive.google.com/drive/folders/0B-ob6L_QjGLpVkYtTGdtRWFodXM?resourcekey=0-Rjgb25St4eER268PwmztSQ
 http://netsniff-ng.org/
-https://man7.org/linux/man-pages/man8/mausezahn.8.html
 https://man7.org/linux/man-pages/man8/trafgen.8.html
 
 https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2020/pdf/BRKDCN-3020.pdf #online diag status
