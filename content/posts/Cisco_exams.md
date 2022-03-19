@@ -1,8 +1,15 @@
 ---
-title: Guide for Cisco Exams
+title: Guide for Cisco Certifications
 description: how to succeed in the cisco certification 
 tags: exam
 ---
+
+# Certifications:
+https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/devnet/cisco-certified-devnet-professional.html#~exams
+https://learningnetwork.cisco.com/s/devcor-exam-topics
+350-901 DEVCOR 	Developing Applications Using Cisco Core Platforms and APIs (DEVCOR) 
+300-735 SAUTO 	Implementing Automation for Cisco Security Solutions (SAUI)
+
 
 # Cisco remote Pruefungen how to:
 
