@@ -1,6 +1,6 @@
 ---
 - name: ENSURE APPLICATION CONFIGURATION EXISTS
-  hosts: apic
+  hosts: all
   connection: local
   gather_facts: False
   vars_prompt:
