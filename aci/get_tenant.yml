@@ -1,6 +1,6 @@
 ---
 - name: USE ACI REST MODULE
-  hosts: apic
+  hosts: all
   connection: local
   gather_facts: False
 
