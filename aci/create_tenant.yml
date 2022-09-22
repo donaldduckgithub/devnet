@@ -12,5 +12,5 @@
         password: "{{ password }}"
         state: "present"
         validate_certs: False
-        tenant: "asdfg"
+        tenant: "asd"
         description: "Tenant Created Using Ansible"
